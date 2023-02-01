@@ -1,0 +1,6 @@
+- type: worker
+    name: queue
+    env: docker
+    dockerfilePath: ./Dockerfile # optional
+    dockerContext: ./src # optional
+    branch: master # optional
